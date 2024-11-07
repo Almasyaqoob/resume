@@ -1,0 +1,179 @@
+*{
+    
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
+    
+
+}
+body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+    background: #f9f9f9;
+    
+
+}
+.resumeDiv{
+    width: 70%;
+    
+    border : 2px solid black;
+    
+
+
+}
+
+  header{
+    width: 90%;
+    height: 80px;
+    background-color: rgb(134, 185, 237);
+    display:flex ;
+    justify-content:space-between;
+    align-items: center ;
+    padding: 70px;
+    margin: 30px; 
+
+
+}  
+.white{
+    color: rgb(22, 22, 232);
+}
+header img{
+    width: 100px;
+    height: 150p;
+    border-radius: 50%;
+    border:solid black ;
+}
+/* header h1 {
+    color: rgb(238, 25, 25); */
+
+
+
+.header{
+    width: 100px;
+    height: 160px;
+    border-radius: 50%;
+    border: 1px solid rgb(226, 20, 20);
+    
+}
+.content{
+    width: 100%;
+    display: flex;
+    
+
+}
+.content aside{
+    width: 30%;
+    background-color: rgb(27, 229, 229);
+    padding-left: 50px;
+    padding-bottom: 50px;
+    background: #f9f9f9; ;
+
+}
+.contact ,
+.education,
+.skill,
+.language
+
+{
+    margin-bottom:30px ;
+
+}
+
+.contact h2,
+.education h2,
+.skill h2,
+.language h2,
+.experiance h2,
+.refrence h2
+{
+    border-bottom:1px solid rgb(60, 166, 243) ;
+    margin-bottom: 20px;
+    padding-bottom: 3px;
+    color: rgb(52, 133, 240);
+}
+.education {
+    line-height: 20x;
+}
+.skill ul{
+    margin-left: 18px;
+}
+.main-content{
+    width: 70%;
+    padding-left:50px ;
+    background-color: white;
+    
+
+}
+.experiance-items {
+    margin-bottom: 40px;
+}
+.experiance-items p{
+    margin-bottom: 5px;
+
+
+}
+.experiance-items ul{
+    margin-left: 18px;
+    margin-top: 15px;
+}
+
+
+
+/* .btndiv{
+    width: 70%;
+    padding: 2%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: aqua;
+    margin-top: 30px;
+}
+.btn{
+    font-size:18px;
+    font-weight: 600;
+    padding: 10px 14px;
+    border-radius: 8px;
+    color: white;
+    background-color: #2bb3f7;
+    cursor: pointer;
+    
+    &:hover{
+        background: black;
+    }
+    &:active{
+        transform: scale(0.95);
+    }
+}
+
+.hide{
+    display:none ;
+
+}
+@media print {
+    .btndiv{
+    display: none;
+    }
+}
+
+
+@media (max-width:786px)
+{
+    .content{
+        flex-direction: column;
+    }
+    aside ,.main-content{
+        width:100%
+    } */
+
+
+/* } */
+
+
+
+
+
